@@ -14,7 +14,6 @@ from telethon import TelegramClient, events, functions, types
 api_id = os.environ.get("APP_ID")
 import os, asyncio
 from os import system
-from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("API_HASH")
 token = os.environ.get("BOT_TOKEN")
 client = TelegramClient('mrunal', "6", "eb06d4abfb49dc3eeb1aeb98ae0f581e").start(bot_token=token)
@@ -83,6 +82,11 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/e354ce72d5cc6a1d27c4d.jpg",
                          "https://telegra.ph/file/f140c121d03dfcaf4e951.jpg", 
                          "https://telegra.ph/file/39f7b5d1d7a3487f6ba69.jpg"
                          ]
+#share with credit elsew gay
+#@nafiz_145 bsdk tu agar or tera koi bhi dost agar use krega to sb gay sbke bapp 20+ honge or 1st wala me honga 
+#use krna hai permission le nlena bc 
+#my idea sar dont kang
+#for more bots join @telebotsbymrunal
 
 mm = '''
 you can make logo of your name
@@ -125,7 +129,7 @@ async def lego(event):
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
-    fname2 = "LogoByLayla.png"
+    fname2 = "LogoByMrunal.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Made By @Telebotsbymrunal")
     if os.path.exists(fname2):
