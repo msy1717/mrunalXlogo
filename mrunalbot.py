@@ -83,6 +83,18 @@ TELEGRAPH_MEDIA_LINKS = ["https://telegra.ph/file/e354ce72d5cc6a1d27c4d.jpg",
                          "https://telegra.ph/file/f140c121d03dfcaf4e951.jpg", 
                          "https://telegra.ph/file/39f7b5d1d7a3487f6ba69.jpg"
                          ]
+
+mm = '''
+you can make logo of your name
+Type /logo
+'''
+@client.on(events.NewMessage(pattern="/start"))
+async def op(event):
+  global mm
+  if not event.is_private:
+    await event.reply("please use me in pm🥺")
+  else:
+    await event.reply(mm)
 #i will add more later if you have good bg send here @telebotsbymrunal
 @mrunal(pattern="^/logo ?(.*)")
 async def lego(event):
