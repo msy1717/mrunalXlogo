@@ -17,7 +17,7 @@ from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("API_HASH")
 token = os.environ.get("BOT_TOKEN")
-client = TelegramClient('mrunal', api_id, api_hash).start(bot_token=token)
+client = TelegramClient('mrunal', "6", "eb06d4abfb49dc3eeb1aeb98ae0f581e").start(bot_token=token)
 #agar coding aati hai tbhi mrunal ko change krna else 100% error so dont blame
 import os 
 from PIL import Image, ImageDraw, ImageFont
