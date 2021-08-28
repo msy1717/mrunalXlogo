@@ -1,1 +1,1 @@
-Worker : python3 mrunalbot.py
+worker : python3 mrunalbot.py
