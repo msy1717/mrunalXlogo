@@ -5,7 +5,7 @@
 #my idea sar dont kang
 #for more bots join @telebotsbymrunal
 API_HASH = "b9ba8cddf0ca77ed102960554fe4cda"
-BOT_TOKEN = "1981155710:AAHYe5QhYpWbZoplYeScuwEmuGWuuVe1su8"
+TOKEN = "1981155710:AAHYe5QhYpWbZoplYeScuwEmuGWuuVe1su8"
 APP_ID = "7292613"
 OWNER_ID = "1471270328"
 import os
