@@ -59,4 +59,4 @@ RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 RUN wget https://raw.githubusercontent.com/msy1717/logoCollabx/master/main.py
 RUN wget https://raw.githubusercontent.com/msy1717/logo-bymrunal/master/requirements.txt
 RUN pip3 install -r requirements.txt
-CMD ["python3","mrunalbot.py"]
+CMD ["python3","mrunnrosh.py"]
