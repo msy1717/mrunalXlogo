@@ -1,3 +1,6 @@
+from PIL import Image, ImageFont, ImageDraw
+import random
+
 from telethon import TelegramClient, events
 api_id = 7292613
 api_hash = 'b9ba8cddfa0ca77ed102960554fe4cda'
@@ -25,5 +28,28 @@ async def logo(event):
     return
   await event.reply('Creating your logo...wait!')
   await event.reply(f"Your logo : {quew}")
+try :
+  text = "{quew}"
 
-client.run_until_disconnected()
+photo = "Mrunal/mrunal.jpg"
+
+color= "white"
+
+X = "Mrunal/Chophsic.otf"
+
+pp = "photo"
+
+fnt = random.choice(os.listdir(X))
+
+image = Image.open(photo)
+
+draw = ImageDraw.Draw(image)
+
+font = ImageFont.truetype(f"{X}/{fnt}", 120)
+
+draw.text((150, 150), text, fill =color, font =font, align ="center")
+
+image.save('output.jpg')
+
+await e.reply(file="output.jpg")
+
